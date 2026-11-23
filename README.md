@@ -26,4 +26,4 @@ flowchart LR
     B --> D[(PostgreSQL<br/>crypto.* / ops.*)]
     B6 --> E[(Parquet<br/>date=/symbol=)]
     D --> F[FastAPI<br/>REST + OpenAPI]
-    F --> G[Clients de<br/>backtesting]
+    F --> G[Clients de<br/>backtesting]# 11-pipeline-crypto-trading.
