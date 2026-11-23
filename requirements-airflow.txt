@@ -1,0 +1,6 @@
+# Ajouts à l'image Airflow. Les versions exactes sont fixées par le fichier de
+# contraintes officiel d'Airflow (voir Dockerfile.airflow) : aucun conflit possible.
+pandas
+pyarrow
+pyyaml
+requests

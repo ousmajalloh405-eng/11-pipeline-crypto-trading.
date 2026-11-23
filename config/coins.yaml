@@ -1,0 +1,55 @@
+# Cryptos suivies par le pipeline (50).
+# symbol -> paire Binance <SYMBOL>USDT ; coingecko_id -> identifiant CoinGecko.
+# Pour ajouter/retirer une crypto : modifier ce fichier, puis relancer `make seed`.
+# Pour vérifier que tous les identifiants existent encore : `make check-coins`.
+coins:
+  - {symbol: BTC, name: "Bitcoin", coingecko_id: bitcoin}
+  - {symbol: ETH, name: "Ethereum", coingecko_id: ethereum}
+  - {symbol: BNB, name: "BNB", coingecko_id: binancecoin}
+  - {symbol: XRP, name: "XRP", coingecko_id: ripple}
+  - {symbol: SOL, name: "Solana", coingecko_id: solana}
+  - {symbol: ADA, name: "Cardano", coingecko_id: cardano}
+  - {symbol: DOGE, name: "Dogecoin", coingecko_id: dogecoin}
+  - {symbol: TRX, name: "TRON", coingecko_id: tron}
+  - {symbol: AVAX, name: "Avalanche", coingecko_id: avalanche-2}
+  - {symbol: LINK, name: "Chainlink", coingecko_id: chainlink}
+  - {symbol: DOT, name: "Polkadot", coingecko_id: polkadot}
+  - {symbol: LTC, name: "Litecoin", coingecko_id: litecoin}
+  - {symbol: BCH, name: "Bitcoin Cash", coingecko_id: bitcoin-cash}
+  - {symbol: UNI, name: "Uniswap", coingecko_id: uniswap}
+  - {symbol: ATOM, name: "Cosmos", coingecko_id: cosmos}
+  - {symbol: XLM, name: "Stellar", coingecko_id: stellar}
+  - {symbol: ETC, name: "Ethereum Classic", coingecko_id: ethereum-classic}
+  - {symbol: FIL, name: "Filecoin", coingecko_id: filecoin}
+  - {symbol: NEAR, name: "NEAR Protocol", coingecko_id: near}
+  - {symbol: APT, name: "Aptos", coingecko_id: aptos}
+  - {symbol: ARB, name: "Arbitrum", coingecko_id: arbitrum}
+  - {symbol: OP, name: "Optimism", coingecko_id: optimism}
+  - {symbol: ICP, name: "Internet Computer", coingecko_id: internet-computer}
+  - {symbol: HBAR, name: "Hedera", coingecko_id: hedera-hashgraph}
+  - {symbol: VET, name: "VeChain", coingecko_id: vechain}
+  - {symbol: ALGO, name: "Algorand", coingecko_id: algorand}
+  - {symbol: AAVE, name: "Aave", coingecko_id: aave}
+  - {symbol: RENDER, name: "Render", coingecko_id: render-token}
+  - {symbol: INJ, name: "Injective", coingecko_id: injective-protocol}
+  - {symbol: GRT, name: "The Graph", coingecko_id: the-graph}
+  - {symbol: SAND, name: "The Sandbox", coingecko_id: the-sandbox}
+  - {symbol: MANA, name: "Decentraland", coingecko_id: decentraland}
+  - {symbol: AXS, name: "Axie Infinity", coingecko_id: axie-infinity}
+  - {symbol: THETA, name: "Theta Network", coingecko_id: theta-token}
+  - {symbol: XTZ, name: "Tezos", coingecko_id: tezos}
+  - {symbol: CHZ, name: "Chiliz", coingecko_id: chiliz}
+  - {symbol: CRV, name: "Curve DAO", coingecko_id: curve-dao-token}
+  - {symbol: COMP, name: "Compound", coingecko_id: compound-governance-token}
+  - {symbol: ENJ, name: "Enjin Coin", coingecko_id: enjincoin}
+  - {symbol: ZEC, name: "Zcash", coingecko_id: zcash}
+  - {symbol: DASH, name: "Dash", coingecko_id: dash}
+  - {symbol: SUI, name: "Sui", coingecko_id: sui}
+  - {symbol: SEI, name: "Sei", coingecko_id: sei-network}
+  - {symbol: TIA, name: "Celestia", coingecko_id: celestia}
+  - {symbol: PEPE, name: "Pepe", coingecko_id: pepe}
+  - {symbol: SHIB, name: "Shiba Inu", coingecko_id: shiba-inu}
+  - {symbol: RUNE, name: "THORChain", coingecko_id: thorchain}
+  - {symbol: LDO, name: "Lido DAO", coingecko_id: lido-dao}
+  - {symbol: WLD, name: "Worldcoin", coingecko_id: worldcoin-wld}
+  - {symbol: GALA, name: "Gala", coingecko_id: gala}
