@@ -10,6 +10,9 @@ L'analyse des marchés crypto nécessite des données fiables, multi-sources, qu
 
 ## Architecture
 
+## Architecture
+
+```mermaid
 flowchart LR
     A[API Binance<br/>bougies 1m] --> B
     C[API CoinGecko<br/>marché + social] --> B
@@ -26,3 +29,4 @@ flowchart LR
     B6 --> E[(Parquet<br/>date=/symbol=)]
     D --> F[FastAPI<br/>REST + OpenAPI]
     F --> G[Clients de<br/>backtesting]
+```
